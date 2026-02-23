@@ -3,7 +3,7 @@
 Modern personal portfolio website showcasing projects, skills, experience, and interactive UI built with the latest frontend technologies.
 
 🌐 Live Demo
-👉 https://my-portfolio-vercel-five.vercel.app/
+👉 https://khusnululum.vercel.app/
 
 ✨ Features :
 - Fully responsive design (mobile → desktop)
@@ -64,7 +64,7 @@ Open in browser:
 
 📬 Contact
 If you'd like to collaborate or hire me:
-Portfolio: https://my-portfolio-vercel-five.vercel.app/
+Portfolio: https://khusnululum.vercel.app/
 GitHub: https://github.com/khusnululum
 Email: khusnululum05@gmail.com
 
