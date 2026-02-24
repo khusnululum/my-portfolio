@@ -182,30 +182,36 @@ export default function Hero() {
               className="absolute -top-15 md:top-10 md:left-1/2 md:-translate-x-1/2 md:w-152.5 "
             />
 
+            {/* HERO TEXT */}
             <motion.div
               variants={staggerContainer}
               initial="hidden"
               animate="show"
               className="mt-20 text-secondary-100"
             >
-              <h1 className="font-anton text-8xl md:text-[187.76px]">
+              <h1 className="font-anton text-[clamp(90px,18vw,188px)] leading-none">
                 FRONTEND
               </h1>
-              <h1 className="font-anton text-[87px] md:text-[168.82px] leading-none">
+              <h1 className="font-anton text-[clamp(80px,18vw,169px)] leading-none">
                 DEVELOPER
               </h1>
             </motion.div>
+
             {/* STROKE */}
             <motion.div
               variants={staggerContainer}
               initial="hidden"
               animate="show"
-              className="absolute top-24 md:top-47"
+              className="absolute top-0 md:top-0"
             >
-              <h1 className="font-anton text-[87px] md:text-[168.82px] leading-none text-transparent [-webkit-text-stroke:1px_#f3b64c]">
+              <h1 className="font-anton text-transparent text-[clamp(90px,18vw,188px)] leading-none">
+                FRONTEND
+              </h1>
+              <h1 className="font-anton text-[clamp(80px,18vw,169px)] leading-none text-transparent [-webkit-text-stroke:1px_#f3b64c]">
                 DEVELOPER
               </h1>
             </motion.div>
+            
             {/* JUNIOR */}
             <motion.div
               variants={staggerContainer}

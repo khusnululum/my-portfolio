@@ -41,10 +41,10 @@ export default function ComparisonCard({
         </div>
       </CardHeader>
 
-      <CardContent className="p-4">
+      <CardContent className="p-1 md:p-4">
         <ul className="space-y-3">
           {items.map((item, i) => (
-            <li key={i} className="flex gap-3 justify-center">
+            <li key={i} className="flex gap-2 justify-center">
               {item.type === "good" ? (
                 <Check />
               ) : (

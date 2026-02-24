@@ -1,4 +1,3 @@
-import { icons } from "lucide-react";
 import { Card, CardHeader, CardContent } from "./card";
 import Image, { StaticImageData } from "next/image";
 

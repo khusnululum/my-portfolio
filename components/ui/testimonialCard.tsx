@@ -43,7 +43,7 @@ export default function TestimonialCard({ testimonials }: Props) {
               duration: 0.45,
               ease: "easeOut",
             }}
-            className={`absolute inset-0 rounded-2xl md:h-85 px-4 mt-4 text-white max-w-6xl mx-auto transition-all duration-500
+            className={`absolute inset-0 rounded-2xl md:h-85 px-1 mt-4 text-white max-w-6xl mx-auto transition-all duration-500
               ${
                 pos === 0
                   ? "bg-primary-300 z-30 scale-100"
@@ -52,6 +52,7 @@ export default function TestimonialCard({ testimonials }: Props) {
                     : "bg-[#B76080]/20 z-10 scale-90 translate-y-12"
               }`}
           >
+            {/* STAR */}
             <div className="flex justify-center gap-2 my-6 pt-2">
               {[...Array(5)].map((_, i) => (
                 <StarIcon
@@ -61,10 +62,12 @@ export default function TestimonialCard({ testimonials }: Props) {
               ))}
             </div>
 
+            {/* TESTI */}
             <p className="text-center text-lg font-semibold leading-relaxed mb-8">
               “{item.quote}”
             </p>
 
+            {/* FOOTER */}
             <div className="flex flex-col items-center gap-2">
               <Image src={item.avatar} alt={item.name} width={64} height={64} />
               <div className="text-center">
