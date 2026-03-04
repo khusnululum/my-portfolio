@@ -3,6 +3,7 @@ import "./globals.css";
 import { Montserrat, Anton, Bonheur_Royale } from "next/font/google";
 import Footer from "@/components/containers/footer/Footer";
 import Navbar from "@/components/containers/navbar/Navbar";
+import StarBackground from "@/components/ui/starBackground";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -37,6 +38,7 @@ export default function RootLayout({
       <body
         className={`${montserrat.className} ${anton.variable} ${bonheur_royal.variable} antialiased`}
       >
+        <StarBackground />
         <Navbar />
         {children}
         <Footer />
