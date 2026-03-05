@@ -21,9 +21,6 @@ Modern personal portfolio website showcasing projects, skills, experience, and i
 - TypeScript – type-safe development
 
 📸 Preview
-Hero Section:
-<img width="1429" height="888" alt="image" src="https://github.com/user-attachments/assets/d9ffab4b-5cf7-4403-9dde-aeabecc2a51d" />
-
 About Section:
 <img width="1424" height="1153" alt="image" src="https://github.com/user-attachments/assets/7d2db5ea-ba55-4572-a6d1-8f596a841a6e" />
 
